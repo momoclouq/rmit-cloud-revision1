@@ -1,0 +1,8 @@
+runtime: php55
+api_version: 1
+handlers:
+- url: /
+  script: fake.php
+- url: /app
+  script: index.php
+
